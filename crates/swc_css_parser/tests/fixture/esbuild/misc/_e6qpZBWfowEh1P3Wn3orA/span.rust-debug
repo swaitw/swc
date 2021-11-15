@@ -1,0 +1,72 @@
+error: Stylesheet
+ --> $DIR/tests/fixture/esbuild/misc/_e6qpZBWfowEh1P3Wn3orA/input.css:1:1
+  |
+1 | :pseudo(cl\61ss) {}
+  | ^^^^^^^^^^^^^^^^^^^
+
+error: Rule
+ --> $DIR/tests/fixture/esbuild/misc/_e6qpZBWfowEh1P3Wn3orA/input.css:1:1
+  |
+1 | :pseudo(cl\61ss) {}
+  | ^^^^^^^^^^^^^^^^^^^
+
+error: StyleRule
+ --> $DIR/tests/fixture/esbuild/misc/_e6qpZBWfowEh1P3Wn3orA/input.css:1:1
+  |
+1 | :pseudo(cl\61ss) {}
+  | ^^^^^^^^^^^^^^^^^^^
+
+error: SelectorList
+ --> $DIR/tests/fixture/esbuild/misc/_e6qpZBWfowEh1P3Wn3orA/input.css:1:1
+  |
+1 | :pseudo(cl\61ss) {}
+  | ^^^^^^^^^^^^^^^^
+
+error: ComplexSelector
+ --> $DIR/tests/fixture/esbuild/misc/_e6qpZBWfowEh1P3Wn3orA/input.css:1:1
+  |
+1 | :pseudo(cl\61ss) {}
+  | ^^^^^^^^^^^^^^^^
+
+error: CompoundSelector
+ --> $DIR/tests/fixture/esbuild/misc/_e6qpZBWfowEh1P3Wn3orA/input.css:1:1
+  |
+1 | :pseudo(cl\61ss) {}
+  | ^^^^^^^^^^^^^^^^
+
+error: SubclassSelector
+ --> $DIR/tests/fixture/esbuild/misc/_e6qpZBWfowEh1P3Wn3orA/input.css:1:1
+  |
+1 | :pseudo(cl\61ss) {}
+  | ^^^^^^^^^^^^^^^^
+
+error: PseudoSelector
+ --> $DIR/tests/fixture/esbuild/misc/_e6qpZBWfowEh1P3Wn3orA/input.css:1:1
+  |
+1 | :pseudo(cl\61ss) {}
+  | ^^^^^^^^^^^^^^^^
+
+error: Ident
+ --> $DIR/tests/fixture/esbuild/misc/_e6qpZBWfowEh1P3Wn3orA/input.css:1:2
+  |
+1 | :pseudo(cl\61ss) {}
+  |  ^^^^^^
+
+error: Tokens
+ --> $DIR/tests/fixture/esbuild/misc/_e6qpZBWfowEh1P3Wn3orA/input.css:1:9
+  |
+1 | :pseudo(cl\61ss) {}
+  |         ^^^^^^^
+
+error: Ident { value: Atom('class' type=static), raw: Atom('cl\61ss' type=inline) }
+ --> $DIR/tests/fixture/esbuild/misc/_e6qpZBWfowEh1P3Wn3orA/input.css:1:9
+  |
+1 | :pseudo(cl\61ss) {}
+  |         ^^^^^^^
+
+error: Block
+ --> $DIR/tests/fixture/esbuild/misc/_e6qpZBWfowEh1P3Wn3orA/input.css:1:18
+  |
+1 | :pseudo(cl\61ss) {}
+  |                  ^^
+

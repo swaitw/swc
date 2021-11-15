@@ -1,0 +1,78 @@
+error: Stylesheet
+ --> $DIR/tests/fixture/esbuild/misc/486QvEO8dmLFsXYp6xgKVw/input.css:1:1
+  |
+1 | a { value: #\30hash }
+  | ^^^^^^^^^^^^^^^^^^^^^
+
+error: Rule
+ --> $DIR/tests/fixture/esbuild/misc/486QvEO8dmLFsXYp6xgKVw/input.css:1:1
+  |
+1 | a { value: #\30hash }
+  | ^^^^^^^^^^^^^^^^^^^^^
+
+error: StyleRule
+ --> $DIR/tests/fixture/esbuild/misc/486QvEO8dmLFsXYp6xgKVw/input.css:1:1
+  |
+1 | a { value: #\30hash }
+  | ^^^^^^^^^^^^^^^^^^^^^
+
+error: SelectorList
+ --> $DIR/tests/fixture/esbuild/misc/486QvEO8dmLFsXYp6xgKVw/input.css:1:1
+  |
+1 | a { value: #\30hash }
+  | ^
+
+error: ComplexSelector
+ --> $DIR/tests/fixture/esbuild/misc/486QvEO8dmLFsXYp6xgKVw/input.css:1:1
+  |
+1 | a { value: #\30hash }
+  | ^
+
+error: CompoundSelector
+ --> $DIR/tests/fixture/esbuild/misc/486QvEO8dmLFsXYp6xgKVw/input.css:1:1
+  |
+1 | a { value: #\30hash }
+  | ^
+
+error: TypeSelector
+ --> $DIR/tests/fixture/esbuild/misc/486QvEO8dmLFsXYp6xgKVw/input.css:1:1
+  |
+1 | a { value: #\30hash }
+  | ^
+
+error: Ident
+ --> $DIR/tests/fixture/esbuild/misc/486QvEO8dmLFsXYp6xgKVw/input.css:1:1
+  |
+1 | a { value: #\30hash }
+  | ^
+
+error: Block
+ --> $DIR/tests/fixture/esbuild/misc/486QvEO8dmLFsXYp6xgKVw/input.css:1:3
+  |
+1 | a { value: #\30hash }
+  |   ^^^^^^^^^^^^^^^^^^^
+
+error: Declaration
+ --> $DIR/tests/fixture/esbuild/misc/486QvEO8dmLFsXYp6xgKVw/input.css:1:5
+  |
+1 | a { value: #\30hash }
+  |     ^^^^^^^^^^^^^^^
+
+error: Ident
+ --> $DIR/tests/fixture/esbuild/misc/486QvEO8dmLFsXYp6xgKVw/input.css:1:5
+  |
+1 | a { value: #\30hash }
+  |     ^^^^^
+
+error: Value
+ --> $DIR/tests/fixture/esbuild/misc/486QvEO8dmLFsXYp6xgKVw/input.css:1:12
+  |
+1 | a { value: #\30hash }
+  |            ^^^^^^^^
+
+error: HashValue
+ --> $DIR/tests/fixture/esbuild/misc/486QvEO8dmLFsXYp6xgKVw/input.css:1:12
+  |
+1 | a { value: #\30hash }
+  |            ^^^^^^^^
+

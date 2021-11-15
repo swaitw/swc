@@ -1,6 +1,0 @@
-error: Expected Property value
- --> $DIR/tests/recovery/delim-token/minus/input.css:2:11
-  |
-2 |     prop: -;
-  |           ^
-

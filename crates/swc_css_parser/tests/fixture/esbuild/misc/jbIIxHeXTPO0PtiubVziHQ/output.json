@@ -1,0 +1,150 @@
+{
+  "type": "Stylesheet",
+  "span": {
+    "start": 0,
+    "end": 58,
+    "ctxt": 0
+  },
+  "rules": [
+    {
+      "type": "KeyframesRule",
+      "span": {
+        "start": 0,
+        "end": 58,
+        "ctxt": 0
+      },
+      "id": {
+        "type": "Identifier",
+        "span": {
+          "start": 11,
+          "end": 15,
+          "ctxt": 0
+        },
+        "value": "name",
+        "raw": "name"
+      },
+      "blocks": [
+        {
+          "span": {
+            "start": 18,
+            "end": 37,
+            "ctxt": 0
+          },
+          "selector": [
+            {
+              "type": "Identifier",
+              "span": {
+                "start": 18,
+                "end": 22,
+                "ctxt": 0
+              },
+              "value": "from",
+              "raw": "from"
+            }
+          ],
+          "rule": {
+            "type": "Block",
+            "span": {
+              "start": 23,
+              "end": 37,
+              "ctxt": 0
+            },
+            "items": [
+              {
+                "type": "Declaration",
+                "span": {
+                  "start": 25,
+                  "end": 35,
+                  "ctxt": 0
+                },
+                "property": {
+                  "type": "Identifier",
+                  "span": {
+                    "start": 25,
+                    "end": 30,
+                    "ctxt": 0
+                  },
+                  "value": "color",
+                  "raw": "color"
+                },
+                "value": [
+                  {
+                    "type": "Identifier",
+                    "span": {
+                      "start": 32,
+                      "end": 35,
+                      "ctxt": 0
+                    },
+                    "value": "red",
+                    "raw": "red"
+                  }
+                ],
+                "important": null
+              }
+            ]
+          }
+        },
+        {
+          "span": {
+            "start": 38,
+            "end": 56,
+            "ctxt": 0
+          },
+          "selector": [
+            {
+              "type": "Identifier",
+              "span": {
+                "start": 38,
+                "end": 40,
+                "ctxt": 0
+              },
+              "value": "to",
+              "raw": "to"
+            }
+          ],
+          "rule": {
+            "type": "Block",
+            "span": {
+              "start": 41,
+              "end": 56,
+              "ctxt": 0
+            },
+            "items": [
+              {
+                "type": "Declaration",
+                "span": {
+                  "start": 43,
+                  "end": 54,
+                  "ctxt": 0
+                },
+                "property": {
+                  "type": "Identifier",
+                  "span": {
+                    "start": 43,
+                    "end": 48,
+                    "ctxt": 0
+                  },
+                  "value": "color",
+                  "raw": "color"
+                },
+                "value": [
+                  {
+                    "type": "Identifier",
+                    "span": {
+                      "start": 50,
+                      "end": 54,
+                      "ctxt": 0
+                    },
+                    "value": "blue",
+                    "raw": "blue"
+                  }
+                ],
+                "important": null
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

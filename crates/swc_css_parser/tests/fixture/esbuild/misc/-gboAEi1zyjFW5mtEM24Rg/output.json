@@ -1,0 +1,188 @@
+{
+  "type": "Stylesheet",
+  "span": {
+    "start": 0,
+    "end": 45,
+    "ctxt": 0
+  },
+  "rules": [
+    {
+      "type": "StyleRule",
+      "span": {
+        "start": 0,
+        "end": 45,
+        "ctxt": 0
+      },
+      "selectors": {
+        "type": "SelectorList",
+        "span": {
+          "start": 0,
+          "end": 1,
+          "ctxt": 0
+        },
+        "children": [
+          {
+            "type": "ComplexSelector",
+            "span": {
+              "start": 0,
+              "end": 1,
+              "ctxt": 0
+            },
+            "children": [
+              {
+                "type": "CompoundSelector",
+                "span": {
+                  "start": 0,
+                  "end": 1,
+                  "ctxt": 0
+                },
+                "nestingSelector": null,
+                "typeSelector": {
+                  "type": "TypeSelector",
+                  "span": {
+                    "start": 0,
+                    "end": 1,
+                    "ctxt": 0
+                  },
+                  "prefix": null,
+                  "name": {
+                    "type": "Identifier",
+                    "span": {
+                      "start": 0,
+                      "end": 1,
+                      "ctxt": 0
+                    },
+                    "value": "a",
+                    "raw": "a"
+                  }
+                },
+                "subclassSelectors": []
+              }
+            ]
+          }
+        ]
+      },
+      "block": {
+        "type": "Block",
+        "span": {
+          "start": 2,
+          "end": 45,
+          "ctxt": 0
+        },
+        "items": [
+          {
+            "type": "Declaration",
+            "span": {
+              "start": 4,
+              "end": 43,
+              "ctxt": 0
+            },
+            "property": {
+              "type": "Identifier",
+              "span": {
+                "start": 4,
+                "end": 14,
+                "ctxt": 0
+              },
+              "value": "box-shadow",
+              "raw": "box-shadow"
+            },
+            "value": [
+              {
+                "type": "FnValue",
+                "span": {
+                  "start": 16,
+                  "end": 31,
+                  "ctxt": 0
+                },
+                "name": {
+                  "type": "Identifier",
+                  "span": {
+                    "start": 16,
+                    "end": 19,
+                    "ctxt": 0
+                  },
+                  "value": "rgb",
+                  "raw": "rgb"
+                },
+                "args": [
+                  {
+                    "type": "Number",
+                    "span": {
+                      "start": 20,
+                      "end": 23,
+                      "ctxt": 0
+                    },
+                    "value": 255.0,
+                    "raw": "255"
+                  },
+                  {
+                    "type": "Number",
+                    "span": {
+                      "start": 25,
+                      "end": 26,
+                      "ctxt": 0
+                    },
+                    "value": 0.0,
+                    "raw": "0"
+                  },
+                  {
+                    "type": "Number",
+                    "span": {
+                      "start": 28,
+                      "end": 30,
+                      "ctxt": 0
+                    },
+                    "value": 17.0,
+                    "raw": "17"
+                  }
+                ]
+              },
+              {
+                "type": "Number",
+                "span": {
+                  "start": 32,
+                  "end": 33,
+                  "ctxt": 0
+                },
+                "value": 0.0,
+                "raw": "0"
+              },
+              {
+                "type": "Number",
+                "span": {
+                  "start": 34,
+                  "end": 35,
+                  "ctxt": 0
+                },
+                "value": 0.0,
+                "raw": "0"
+              },
+              {
+                "type": "Number",
+                "span": {
+                  "start": 36,
+                  "end": 37,
+                  "ctxt": 0
+                },
+                "value": 1.0,
+                "raw": "1"
+              },
+              {
+                "type": "Identifier",
+                "span": {
+                  "start": 38,
+                  "end": 43,
+                  "ctxt": 0
+                },
+                "value": "inset",
+                "raw": "inset"
+              }
+            ],
+            "important": null
+          }
+        ]
+      }
+    }
+  ]
+}

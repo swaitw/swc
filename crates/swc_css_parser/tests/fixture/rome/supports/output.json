@@ -1,0 +1,606 @@
+{
+  "type": "Stylesheet",
+  "span": {
+    "start": 0,
+    "end": 370,
+    "ctxt": 0
+  },
+  "rules": [
+    {
+      "type": "SupportsRule",
+      "span": {
+        "start": 0,
+        "end": 33,
+        "ctxt": 0
+      },
+      "query": {
+        "type": "NotSupportQuery",
+        "span": {
+          "start": 10,
+          "end": 30,
+          "ctxt": 0
+        },
+        "query": {
+          "type": "Declaration",
+          "span": {
+            "start": 15,
+            "end": 28,
+            "ctxt": 0
+          },
+          "property": {
+            "type": "Identifier",
+            "span": {
+              "start": 15,
+              "end": 22,
+              "ctxt": 0
+            },
+            "value": "display",
+            "raw": "display"
+          },
+          "value": [
+            {
+              "type": "Identifier",
+              "span": {
+                "start": 24,
+                "end": 28,
+                "ctxt": 0
+              },
+              "value": "flex",
+              "raw": "flex"
+            }
+          ],
+          "important": null
+        }
+      },
+      "rules": []
+    },
+    {
+      "type": "SupportsRule",
+      "span": {
+        "start": 35,
+        "end": 246,
+        "ctxt": 0
+      },
+      "query": {
+        "type": "OrSupportQuery",
+        "span": {
+          "start": 45,
+          "end": 244,
+          "ctxt": 0
+        },
+        "left": {
+          "type": "Declaration",
+          "span": {
+            "start": 47,
+            "end": 78,
+            "ctxt": 0
+          },
+          "property": {
+            "type": "Identifier",
+            "span": {
+              "start": 47,
+              "end": 57,
+              "ctxt": 0
+            },
+            "value": "box-shadow",
+            "raw": "box-shadow"
+          },
+          "value": [
+            {
+              "type": "Number",
+              "span": {
+                "start": 59,
+                "end": 60,
+                "ctxt": 0
+              },
+              "value": 0.0,
+              "raw": "0"
+            },
+            {
+              "type": "Number",
+              "span": {
+                "start": 61,
+                "end": 62,
+                "ctxt": 0
+              },
+              "value": 0.0,
+              "raw": "0"
+            },
+            {
+              "type": "UnitValue",
+              "span": {
+                "start": 63,
+                "end": 66,
+                "ctxt": 0
+              },
+              "value": {
+                "type": "Number",
+                "span": {
+                  "start": 63,
+                  "end": 64,
+                  "ctxt": 0
+                },
+                "value": 2.0,
+                "raw": "2"
+              },
+              "unit": {
+                "span": {
+                  "start": 64,
+                  "end": 66,
+                  "ctxt": 0
+                },
+                "value": "px",
+                "raw": "px"
+              }
+            },
+            {
+              "type": "Identifier",
+              "span": {
+                "start": 67,
+                "end": 72,
+                "ctxt": 0
+              },
+              "value": "black",
+              "raw": "black"
+            },
+            {
+              "type": "Identifier",
+              "span": {
+                "start": 73,
+                "end": 78,
+                "ctxt": 0
+              },
+              "value": "inset",
+              "raw": "inset"
+            }
+          ],
+          "important": null
+        },
+        "right": {
+          "type": "OrSupportQuery",
+          "span": {
+            "start": 94,
+            "end": 244,
+            "ctxt": 0
+          },
+          "left": {
+            "type": "Declaration",
+            "span": {
+              "start": 96,
+              "end": 132,
+              "ctxt": 0
+            },
+            "property": {
+              "type": "Identifier",
+              "span": {
+                "start": 96,
+                "end": 111,
+                "ctxt": 0
+              },
+              "value": "-moz-box-shadow",
+              "raw": "-moz-box-shadow"
+            },
+            "value": [
+              {
+                "type": "Number",
+                "span": {
+                  "start": 113,
+                  "end": 114,
+                  "ctxt": 0
+                },
+                "value": 0.0,
+                "raw": "0"
+              },
+              {
+                "type": "Number",
+                "span": {
+                  "start": 115,
+                  "end": 116,
+                  "ctxt": 0
+                },
+                "value": 0.0,
+                "raw": "0"
+              },
+              {
+                "type": "UnitValue",
+                "span": {
+                  "start": 117,
+                  "end": 120,
+                  "ctxt": 0
+                },
+                "value": {
+                  "type": "Number",
+                  "span": {
+                    "start": 117,
+                    "end": 118,
+                    "ctxt": 0
+                  },
+                  "value": 2.0,
+                  "raw": "2"
+                },
+                "unit": {
+                  "span": {
+                    "start": 118,
+                    "end": 120,
+                    "ctxt": 0
+                  },
+                  "value": "px",
+                  "raw": "px"
+                }
+              },
+              {
+                "type": "Identifier",
+                "span": {
+                  "start": 121,
+                  "end": 126,
+                  "ctxt": 0
+                },
+                "value": "black",
+                "raw": "black"
+              },
+              {
+                "type": "Identifier",
+                "span": {
+                  "start": 127,
+                  "end": 132,
+                  "ctxt": 0
+                },
+                "value": "inset",
+                "raw": "inset"
+              }
+            ],
+            "important": null
+          },
+          "right": {
+            "type": "OrSupportQuery",
+            "span": {
+              "start": 148,
+              "end": 244,
+              "ctxt": 0
+            },
+            "left": {
+              "type": "Declaration",
+              "span": {
+                "start": 150,
+                "end": 189,
+                "ctxt": 0
+              },
+              "property": {
+                "type": "Identifier",
+                "span": {
+                  "start": 150,
+                  "end": 168,
+                  "ctxt": 0
+                },
+                "value": "-webkit-box-shadow",
+                "raw": "-webkit-box-shadow"
+              },
+              "value": [
+                {
+                  "type": "Number",
+                  "span": {
+                    "start": 170,
+                    "end": 171,
+                    "ctxt": 0
+                  },
+                  "value": 0.0,
+                  "raw": "0"
+                },
+                {
+                  "type": "Number",
+                  "span": {
+                    "start": 172,
+                    "end": 173,
+                    "ctxt": 0
+                  },
+                  "value": 0.0,
+                  "raw": "0"
+                },
+                {
+                  "type": "UnitValue",
+                  "span": {
+                    "start": 174,
+                    "end": 177,
+                    "ctxt": 0
+                  },
+                  "value": {
+                    "type": "Number",
+                    "span": {
+                      "start": 174,
+                      "end": 175,
+                      "ctxt": 0
+                    },
+                    "value": 2.0,
+                    "raw": "2"
+                  },
+                  "unit": {
+                    "span": {
+                      "start": 175,
+                      "end": 177,
+                      "ctxt": 0
+                    },
+                    "value": "px",
+                    "raw": "px"
+                  }
+                },
+                {
+                  "type": "Identifier",
+                  "span": {
+                    "start": 178,
+                    "end": 183,
+                    "ctxt": 0
+                  },
+                  "value": "black",
+                  "raw": "black"
+                },
+                {
+                  "type": "Identifier",
+                  "span": {
+                    "start": 184,
+                    "end": 189,
+                    "ctxt": 0
+                  },
+                  "value": "inset",
+                  "raw": "inset"
+                }
+              ],
+              "important": null
+            },
+            "right": {
+              "type": "Declaration",
+              "span": {
+                "start": 207,
+                "end": 241,
+                "ctxt": 0
+              },
+              "property": {
+                "type": "Identifier",
+                "span": {
+                  "start": 207,
+                  "end": 220,
+                  "ctxt": 0
+                },
+                "value": "-o-box-shadow",
+                "raw": "-o-box-shadow"
+              },
+              "value": [
+                {
+                  "type": "Number",
+                  "span": {
+                    "start": 222,
+                    "end": 223,
+                    "ctxt": 0
+                  },
+                  "value": 0.0,
+                  "raw": "0"
+                },
+                {
+                  "type": "Number",
+                  "span": {
+                    "start": 224,
+                    "end": 225,
+                    "ctxt": 0
+                  },
+                  "value": 0.0,
+                  "raw": "0"
+                },
+                {
+                  "type": "UnitValue",
+                  "span": {
+                    "start": 226,
+                    "end": 229,
+                    "ctxt": 0
+                  },
+                  "value": {
+                    "type": "Number",
+                    "span": {
+                      "start": 226,
+                      "end": 227,
+                      "ctxt": 0
+                    },
+                    "value": 2.0,
+                    "raw": "2"
+                  },
+                  "unit": {
+                    "span": {
+                      "start": 227,
+                      "end": 229,
+                      "ctxt": 0
+                    },
+                    "value": "px",
+                    "raw": "px"
+                  }
+                },
+                {
+                  "type": "Identifier",
+                  "span": {
+                    "start": 230,
+                    "end": 235,
+                    "ctxt": 0
+                  },
+                  "value": "black",
+                  "raw": "black"
+                },
+                {
+                  "type": "Identifier",
+                  "span": {
+                    "start": 236,
+                    "end": 241,
+                    "ctxt": 0
+                  },
+                  "value": "inset",
+                  "raw": "inset"
+                }
+              ],
+              "important": null
+            }
+          }
+        }
+      },
+      "rules": []
+    },
+    {
+      "type": "SupportsRule",
+      "span": {
+        "start": 249,
+        "end": 369,
+        "ctxt": 0
+      },
+      "query": {
+        "type": "AndSupportQuery",
+        "span": {
+          "start": 259,
+          "end": 367,
+          "ctxt": 0
+        },
+        "left": {
+          "type": "ParenSupportQuery",
+          "span": {
+            "start": 259,
+            "end": 324,
+            "ctxt": 0
+          },
+          "query": {
+            "type": "OrSupportQuery",
+            "span": {
+              "start": 260,
+              "end": 324,
+              "ctxt": 0
+            },
+            "left": {
+              "type": "Declaration",
+              "span": {
+                "start": 261,
+                "end": 287,
+                "ctxt": 0
+              },
+              "property": {
+                "type": "Identifier",
+                "span": {
+                  "start": 261,
+                  "end": 280,
+                  "ctxt": 0
+                },
+                "value": "transition-property",
+                "raw": "transition-property"
+              },
+              "value": [
+                {
+                  "type": "Identifier",
+                  "span": {
+                    "start": 282,
+                    "end": 287,
+                    "ctxt": 0
+                  },
+                  "value": "color",
+                  "raw": "color"
+                }
+              ],
+              "important": null
+            },
+            "right": {
+              "type": "Declaration",
+              "span": {
+                "start": 304,
+                "end": 323,
+                "ctxt": 0
+              },
+              "property": {
+                "type": "Identifier",
+                "span": {
+                  "start": 304,
+                  "end": 318,
+                  "ctxt": 0
+                },
+                "value": "animation-name",
+                "raw": "animation-name"
+              },
+              "value": [
+                {
+                  "type": "Identifier",
+                  "span": {
+                    "start": 320,
+                    "end": 323,
+                    "ctxt": 0
+                  },
+                  "value": "foo",
+                  "raw": "foo"
+                }
+              ],
+              "important": null
+            }
+          }
+        },
+        "right": {
+          "type": "Declaration",
+          "span": {
+            "start": 341,
+            "end": 365,
+            "ctxt": 0
+          },
+          "property": {
+            "type": "Identifier",
+            "span": {
+              "start": 341,
+              "end": 350,
+              "ctxt": 0
+            },
+            "value": "transform",
+            "raw": "transform"
+          },
+          "value": [
+            {
+              "type": "FnValue",
+              "span": {
+                "start": 352,
+                "end": 365,
+                "ctxt": 0
+              },
+              "name": {
+                "type": "Identifier",
+                "span": {
+                  "start": 352,
+                  "end": 358,
+                  "ctxt": 0
+                },
+                "value": "rotate",
+                "raw": "rotate"
+              },
+              "args": [
+                {
+                  "type": "UnitValue",
+                  "span": {
+                    "start": 359,
+                    "end": 364,
+                    "ctxt": 0
+                  },
+                  "value": {
+                    "type": "Number",
+                    "span": {
+                      "start": 359,
+                      "end": 361,
+                      "ctxt": 0
+                    },
+                    "value": 10.0,
+                    "raw": "10"
+                  },
+                  "unit": {
+                    "span": {
+                      "start": 361,
+                      "end": 364,
+                      "ctxt": 0
+                    },
+                    "value": "deg",
+                    "raw": "deg"
+                  }
+                }
+              ]
+            }
+          ],
+          "important": null
+        }
+      },
+      "rules": []
+    }
+  ]
+}

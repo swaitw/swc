@@ -1,0 +1,66 @@
+error: Stylesheet
+ --> $DIR/tests/fixture/esbuild/misc/qsC9vwnhYfmqVreVrA1SEg/input.css:1:1
+  |
+1 | [b |= "c"] {}
+  | ^^^^^^^^^^^^^
+
+error: Rule
+ --> $DIR/tests/fixture/esbuild/misc/qsC9vwnhYfmqVreVrA1SEg/input.css:1:1
+  |
+1 | [b |= "c"] {}
+  | ^^^^^^^^^^^^^
+
+error: StyleRule
+ --> $DIR/tests/fixture/esbuild/misc/qsC9vwnhYfmqVreVrA1SEg/input.css:1:1
+  |
+1 | [b |= "c"] {}
+  | ^^^^^^^^^^^^^
+
+error: SelectorList
+ --> $DIR/tests/fixture/esbuild/misc/qsC9vwnhYfmqVreVrA1SEg/input.css:1:1
+  |
+1 | [b |= "c"] {}
+  | ^^^^^^^^^^
+
+error: ComplexSelector
+ --> $DIR/tests/fixture/esbuild/misc/qsC9vwnhYfmqVreVrA1SEg/input.css:1:1
+  |
+1 | [b |= "c"] {}
+  | ^^^^^^^^^^
+
+error: CompoundSelector
+ --> $DIR/tests/fixture/esbuild/misc/qsC9vwnhYfmqVreVrA1SEg/input.css:1:1
+  |
+1 | [b |= "c"] {}
+  | ^^^^^^^^^^
+
+error: SubclassSelector
+ --> $DIR/tests/fixture/esbuild/misc/qsC9vwnhYfmqVreVrA1SEg/input.css:1:1
+  |
+1 | [b |= "c"] {}
+  | ^^^^^^^^^^
+
+error: AttrSelector
+ --> $DIR/tests/fixture/esbuild/misc/qsC9vwnhYfmqVreVrA1SEg/input.css:1:1
+  |
+1 | [b |= "c"] {}
+  | ^^^^^^^^^^
+
+error: Ident
+ --> $DIR/tests/fixture/esbuild/misc/qsC9vwnhYfmqVreVrA1SEg/input.css:1:2
+  |
+1 | [b |= "c"] {}
+  |  ^
+
+error: Str
+ --> $DIR/tests/fixture/esbuild/misc/qsC9vwnhYfmqVreVrA1SEg/input.css:1:7
+  |
+1 | [b |= "c"] {}
+  |       ^^^
+
+error: Block
+ --> $DIR/tests/fixture/esbuild/misc/qsC9vwnhYfmqVreVrA1SEg/input.css:1:12
+  |
+1 | [b |= "c"] {}
+  |            ^^
+

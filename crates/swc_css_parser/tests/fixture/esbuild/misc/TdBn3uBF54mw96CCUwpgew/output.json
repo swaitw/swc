@@ -1,0 +1,90 @@
+{
+  "type": "Stylesheet",
+  "span": {
+    "start": 0,
+    "end": 7,
+    "ctxt": 0
+  },
+  "rules": [
+    {
+      "type": "StyleRule",
+      "span": {
+        "start": 0,
+        "end": 7,
+        "ctxt": 0
+      },
+      "selectors": {
+        "type": "SelectorList",
+        "span": {
+          "start": 0,
+          "end": 5,
+          "ctxt": 0
+        },
+        "children": [
+          {
+            "type": "ComplexSelector",
+            "span": {
+              "start": 0,
+              "end": 5,
+              "ctxt": 0
+            },
+            "children": [
+              {
+                "type": "CompoundSelector",
+                "span": {
+                  "start": 0,
+                  "end": 5,
+                  "ctxt": 0
+                },
+                "nestingSelector": null,
+                "typeSelector": null,
+                "subclassSelectors": [
+                  {
+                    "type": "AttributeSelector",
+                    "span": {
+                      "start": 0,
+                      "end": 5,
+                      "ctxt": 0
+                    },
+                    "prefix": {
+                      "type": "Identifier",
+                      "span": {
+                        "start": 1,
+                        "end": 2,
+                        "ctxt": 0
+                      },
+                      "value": "a",
+                      "raw": "a"
+                    },
+                    "name": {
+                      "type": "Identifier",
+                      "span": {
+                        "start": 3,
+                        "end": 4,
+                        "ctxt": 0
+                      },
+                      "value": "b",
+                      "raw": "b"
+                    },
+                    "matcher": null,
+                    "value": null,
+                    "modifier": null
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "block": {
+        "type": "Block",
+        "span": {
+          "start": 5,
+          "end": 7,
+          "ctxt": 0
+        },
+        "items": []
+      }
+    }
+  ]
+}

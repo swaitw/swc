@@ -510,7 +510,8 @@ export type JscTarget =
   | "es2018"
   | "es2019"
   | "es2020"
-  | "es2021";
+  | "es2021"
+  | "es2022";
 
 export type ParserConfig = TsParserConfig | EsParserConfig;
 export interface TsParserConfig {
@@ -715,7 +716,7 @@ export interface GlobalPassOption {
   envs?: string[];
 }
 
-export type ModuleConfig = CommonJsConfig | UmdConfig | AmdConfig;
+export type ModuleConfig = Es6Config | CommonJsConfig | UmdConfig | AmdConfig;
 
 export interface BaseModuleConfig {
   /**
@@ -783,6 +784,10 @@ export interface BaseModuleConfig {
    * Defaults to `false`.
    */
   noInterop?: boolean;
+}
+
+export interface Es6Config extends BaseModuleConfig {
+  type: "es6";
 }
 
 export interface CommonJsConfig extends BaseModuleConfig {

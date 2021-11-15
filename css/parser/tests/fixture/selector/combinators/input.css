@@ -1,9 +1,0 @@
-article p {}
-article   p   {}
-article > p {}
-article    >    p    {}
-p + img {}
-p   +   img {}
-p ~ img {}
-p    ~    img {}
-article > p > a {}

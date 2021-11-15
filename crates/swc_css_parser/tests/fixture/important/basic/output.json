@@ -1,0 +1,723 @@
+{
+  "type": "Stylesheet",
+  "span": {
+    "start": 0,
+    "end": 496,
+    "ctxt": 0
+  },
+  "rules": [
+    {
+      "type": "StyleRule",
+      "span": {
+        "start": 0,
+        "end": 495,
+        "ctxt": 0
+      },
+      "selectors": {
+        "type": "SelectorList",
+        "span": {
+          "start": 0,
+          "end": 2,
+          "ctxt": 0
+        },
+        "children": [
+          {
+            "type": "ComplexSelector",
+            "span": {
+              "start": 0,
+              "end": 2,
+              "ctxt": 0
+            },
+            "children": [
+              {
+                "type": "CompoundSelector",
+                "span": {
+                  "start": 0,
+                  "end": 2,
+                  "ctxt": 0
+                },
+                "nestingSelector": null,
+                "typeSelector": null,
+                "subclassSelectors": [
+                  {
+                    "type": "ClassSelector",
+                    "span": {
+                      "start": 0,
+                      "end": 2,
+                      "ctxt": 0
+                    },
+                    "text": {
+                      "type": "Identifier",
+                      "span": {
+                        "start": 1,
+                        "end": 2,
+                        "ctxt": 0
+                      },
+                      "value": "a",
+                      "raw": "a"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "block": {
+        "type": "Block",
+        "span": {
+          "start": 3,
+          "end": 495,
+          "ctxt": 0
+        },
+        "items": [
+          {
+            "type": "Declaration",
+            "span": {
+              "start": 9,
+              "end": 24,
+              "ctxt": 0
+            },
+            "property": {
+              "type": "Identifier",
+              "span": {
+                "start": 9,
+                "end": 13,
+                "ctxt": 0
+              },
+              "value": "prop",
+              "raw": "prop"
+            },
+            "value": [
+              {
+                "type": "Identifier",
+                "span": {
+                  "start": 15,
+                  "end": 24,
+                  "ctxt": 0
+                },
+                "value": "important",
+                "raw": "important"
+              }
+            ],
+            "important": null
+          },
+          {
+            "type": "Declaration",
+            "span": {
+              "start": 30,
+              "end": 50,
+              "ctxt": 0
+            },
+            "property": {
+              "type": "Identifier",
+              "span": {
+                "start": 30,
+                "end": 35,
+                "ctxt": 0
+              },
+              "value": "color",
+              "raw": "color"
+            },
+            "value": [
+              {
+                "type": "Identifier",
+                "span": {
+                  "start": 37,
+                  "end": 40,
+                  "ctxt": 0
+                },
+                "value": "red",
+                "raw": "red"
+              },
+              {
+                "type": "Identifier",
+                "span": {
+                  "start": 41,
+                  "end": 50,
+                  "ctxt": 0
+                },
+                "value": "important",
+                "raw": "important"
+              }
+            ],
+            "important": null
+          },
+          {
+            "type": "Declaration",
+            "span": {
+              "start": 56,
+              "end": 76,
+              "ctxt": 0
+            },
+            "property": {
+              "type": "Identifier",
+              "span": {
+                "start": 56,
+                "end": 61,
+                "ctxt": 0
+              },
+              "value": "width",
+              "raw": "width"
+            },
+            "value": [
+              {
+                "type": "UnitValue",
+                "span": {
+                  "start": 63,
+                  "end": 66,
+                  "ctxt": 0
+                },
+                "value": {
+                  "type": "Number",
+                  "span": {
+                    "start": 63,
+                    "end": 64,
+                    "ctxt": 0
+                  },
+                  "value": 1.0,
+                  "raw": "1"
+                },
+                "unit": {
+                  "span": {
+                    "start": 64,
+                    "end": 66,
+                    "ctxt": 0
+                  },
+                  "value": "px",
+                  "raw": "px"
+                }
+              }
+            ],
+            "important": {
+              "start": 66,
+              "end": 76,
+              "ctxt": 0
+            }
+          },
+          {
+            "type": "Declaration",
+            "span": {
+              "start": 82,
+              "end": 102,
+              "ctxt": 0
+            },
+            "property": {
+              "type": "Identifier",
+              "span": {
+                "start": 82,
+                "end": 87,
+                "ctxt": 0
+              },
+              "value": "color",
+              "raw": "color"
+            },
+            "value": [
+              {
+                "type": "Identifier",
+                "span": {
+                  "start": 89,
+                  "end": 92,
+                  "ctxt": 0
+                },
+                "value": "red",
+                "raw": "red"
+              }
+            ],
+            "important": {
+              "start": 92,
+              "end": 102,
+              "ctxt": 0
+            }
+          },
+          {
+            "type": "Declaration",
+            "span": {
+              "start": 108,
+              "end": 129,
+              "ctxt": 0
+            },
+            "property": {
+              "type": "Identifier",
+              "span": {
+                "start": 108,
+                "end": 113,
+                "ctxt": 0
+              },
+              "value": "color",
+              "raw": "color"
+            },
+            "value": [
+              {
+                "type": "Identifier",
+                "span": {
+                  "start": 115,
+                  "end": 118,
+                  "ctxt": 0
+                },
+                "value": "red",
+                "raw": "red"
+              }
+            ],
+            "important": {
+              "start": 119,
+              "end": 129,
+              "ctxt": 0
+            }
+          },
+          {
+            "type": "Declaration",
+            "span": {
+              "start": 135,
+              "end": 157,
+              "ctxt": 0
+            },
+            "property": {
+              "type": "Identifier",
+              "span": {
+                "start": 135,
+                "end": 140,
+                "ctxt": 0
+              },
+              "value": "color",
+              "raw": "color"
+            },
+            "value": [
+              {
+                "type": "Identifier",
+                "span": {
+                  "start": 142,
+                  "end": 145,
+                  "ctxt": 0
+                },
+                "value": "red",
+                "raw": "red"
+              }
+            ],
+            "important": {
+              "start": 147,
+              "end": 157,
+              "ctxt": 0
+            }
+          },
+          {
+            "type": "Declaration",
+            "span": {
+              "start": 163,
+              "end": 190,
+              "ctxt": 0
+            },
+            "property": {
+              "type": "Identifier",
+              "span": {
+                "start": 163,
+                "end": 168,
+                "ctxt": 0
+              },
+              "value": "color",
+              "raw": "color"
+            },
+            "value": [
+              {
+                "type": "Identifier",
+                "span": {
+                  "start": 170,
+                  "end": 173,
+                  "ctxt": 0
+                },
+                "value": "red",
+                "raw": "red"
+              }
+            ],
+            "important": {
+              "start": 174,
+              "end": 190,
+              "ctxt": 0
+            }
+          },
+          {
+            "type": "Declaration",
+            "span": {
+              "start": 196,
+              "end": 218,
+              "ctxt": 0
+            },
+            "property": {
+              "type": "Identifier",
+              "span": {
+                "start": 196,
+                "end": 201,
+                "ctxt": 0
+              },
+              "value": "color",
+              "raw": "color"
+            },
+            "value": [
+              {
+                "type": "Identifier",
+                "span": {
+                  "start": 203,
+                  "end": 207,
+                  "ctxt": 0
+                },
+                "value": "blue",
+                "raw": "blue"
+              }
+            ],
+            "important": {
+              "start": 208,
+              "end": 218,
+              "ctxt": 0
+            }
+          },
+          {
+            "type": "Declaration",
+            "span": {
+              "start": 224,
+              "end": 253,
+              "ctxt": 0
+            },
+            "property": {
+              "type": "Identifier",
+              "span": {
+                "start": 224,
+                "end": 229,
+                "ctxt": 0
+              },
+              "value": "color",
+              "raw": "color"
+            },
+            "value": [
+              {
+                "type": "Identifier",
+                "span": {
+                  "start": 231,
+                  "end": 236,
+                  "ctxt": 0
+                },
+                "value": "white",
+                "raw": "white"
+              }
+            ],
+            "important": {
+              "start": 237,
+              "end": 253,
+              "ctxt": 0
+            }
+          },
+          {
+            "type": "Declaration",
+            "span": {
+              "start": 259,
+              "end": 293,
+              "ctxt": 0
+            },
+            "property": {
+              "type": "Identifier",
+              "span": {
+                "start": 259,
+                "end": 265,
+                "ctxt": 0
+              },
+              "value": "margin",
+              "raw": "margin"
+            },
+            "value": [
+              {
+                "type": "UnitValue",
+                "span": {
+                  "start": 267,
+                  "end": 271,
+                  "ctxt": 0
+                },
+                "value": {
+                  "type": "Number",
+                  "span": {
+                    "start": 267,
+                    "end": 269,
+                    "ctxt": 0
+                  },
+                  "value": 10.0,
+                  "raw": "10"
+                },
+                "unit": {
+                  "span": {
+                    "start": 269,
+                    "end": 271,
+                    "ctxt": 0
+                  },
+                  "value": "px",
+                  "raw": "px"
+                }
+              }
+            ],
+            "important": {
+              "start": 277,
+              "end": 293,
+              "ctxt": 0
+            }
+          },
+          {
+            "type": "Declaration",
+            "span": {
+              "start": 299,
+              "end": 342,
+              "ctxt": 0
+            },
+            "property": {
+              "type": "Identifier",
+              "span": {
+                "start": 299,
+                "end": 306,
+                "ctxt": 0
+              },
+              "value": "padding",
+              "raw": "padding"
+            },
+            "value": [
+              {
+                "type": "UnitValue",
+                "span": {
+                  "start": 308,
+                  "end": 312,
+                  "ctxt": 0
+                },
+                "value": {
+                  "type": "Number",
+                  "span": {
+                    "start": 308,
+                    "end": 310,
+                    "ctxt": 0
+                  },
+                  "value": 20.0,
+                  "raw": "20"
+                },
+                "unit": {
+                  "span": {
+                    "start": 310,
+                    "end": 312,
+                    "ctxt": 0
+                  },
+                  "value": "px",
+                  "raw": "px"
+                }
+              }
+            ],
+            "important": {
+              "start": 317,
+              "end": 342,
+              "ctxt": 0
+            }
+          },
+          {
+            "type": "Declaration",
+            "span": {
+              "start": 348,
+              "end": 384,
+              "ctxt": 0
+            },
+            "property": {
+              "type": "Identifier",
+              "span": {
+                "start": 348,
+                "end": 353,
+                "ctxt": 0
+              },
+              "value": "width",
+              "raw": "width"
+            },
+            "value": [
+              {
+                "type": "UnitValue",
+                "span": {
+                  "start": 355,
+                  "end": 360,
+                  "ctxt": 0
+                },
+                "value": {
+                  "type": "Number",
+                  "span": {
+                    "start": 355,
+                    "end": 358,
+                    "ctxt": 0
+                  },
+                  "value": 100.0,
+                  "raw": "100"
+                },
+                "unit": {
+                  "span": {
+                    "start": 358,
+                    "end": 360,
+                    "ctxt": 0
+                  },
+                  "value": "px",
+                  "raw": "px"
+                }
+              }
+            ],
+            "important": {
+              "start": 361,
+              "end": 384,
+              "ctxt": 0
+            }
+          },
+          {
+            "type": "Declaration",
+            "span": {
+              "start": 390,
+              "end": 425,
+              "ctxt": 0
+            },
+            "property": {
+              "type": "Identifier",
+              "span": {
+                "start": 390,
+                "end": 396,
+                "ctxt": 0
+              },
+              "value": "height",
+              "raw": "height"
+            },
+            "value": [
+              {
+                "type": "UnitValue",
+                "span": {
+                  "start": 398,
+                  "end": 403,
+                  "ctxt": 0
+                },
+                "value": {
+                  "type": "Number",
+                  "span": {
+                    "start": 398,
+                    "end": 401,
+                    "ctxt": 0
+                  },
+                  "value": 100.0,
+                  "raw": "100"
+                },
+                "unit": {
+                  "span": {
+                    "start": 401,
+                    "end": 403,
+                    "ctxt": 0
+                  },
+                  "value": "px",
+                  "raw": "px"
+                }
+              },
+              {
+                "type": "Identifier",
+                "span": {
+                  "start": 416,
+                  "end": 425,
+                  "ctxt": 0
+                },
+                "value": "important",
+                "raw": "important"
+              }
+            ],
+            "important": null
+          },
+          {
+            "type": "Declaration",
+            "span": {
+              "start": 431,
+              "end": 455,
+              "ctxt": 0
+            },
+            "property": {
+              "type": "Identifier",
+              "span": {
+                "start": 431,
+                "end": 438,
+                "ctxt": 0
+              },
+              "value": "z-index",
+              "raw": "z-index"
+            },
+            "value": [
+              {
+                "type": "Number",
+                "span": {
+                  "start": 440,
+                  "end": 441,
+                  "ctxt": 0
+                },
+                "value": 1.0,
+                "raw": "1"
+              },
+              {
+                "type": "String",
+                "span": {
+                  "start": 442,
+                  "end": 444,
+                  "ctxt": 0
+                },
+                "value": "",
+                "raw": "\"\""
+              }
+            ],
+            "important": {
+              "start": 444,
+              "end": 455,
+              "ctxt": 0
+            }
+          },
+          {
+            "type": "Declaration",
+            "span": {
+              "start": 461,
+              "end": 492,
+              "ctxt": 0
+            },
+            "property": {
+              "type": "Identifier",
+              "span": {
+                "start": 461,
+                "end": 468,
+                "ctxt": 0
+              },
+              "value": "padding",
+              "raw": "padding"
+            },
+            "value": [
+              {
+                "type": "UnitValue",
+                "span": {
+                  "start": 470,
+                  "end": 473,
+                  "ctxt": 0
+                },
+                "value": {
+                  "type": "Number",
+                  "span": {
+                    "start": 470,
+                    "end": 471,
+                    "ctxt": 0
+                  },
+                  "value": 1.0,
+                  "raw": "1"
+                },
+                "unit": {
+                  "span": {
+                    "start": 471,
+                    "end": 473,
+                    "ctxt": 0
+                  },
+                  "value": "px",
+                  "raw": "px"
+                }
+              }
+            ],
+            "important": {
+              "start": 482,
+              "end": 492,
+              "ctxt": 0
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

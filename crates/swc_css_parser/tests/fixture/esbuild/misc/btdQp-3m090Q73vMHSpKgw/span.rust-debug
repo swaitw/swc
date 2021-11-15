@@ -1,0 +1,60 @@
+error: Stylesheet
+ --> $DIR/tests/fixture/esbuild/misc/btdQp-3m090Q73vMHSpKgw/input.css:1:1
+  |
+1 | \2a|div {}
+  | ^^^^^^^^^^
+
+error: Rule
+ --> $DIR/tests/fixture/esbuild/misc/btdQp-3m090Q73vMHSpKgw/input.css:1:1
+  |
+1 | \2a|div {}
+  | ^^^^^^^^^^
+
+error: StyleRule
+ --> $DIR/tests/fixture/esbuild/misc/btdQp-3m090Q73vMHSpKgw/input.css:1:1
+  |
+1 | \2a|div {}
+  | ^^^^^^^^^^
+
+error: SelectorList
+ --> $DIR/tests/fixture/esbuild/misc/btdQp-3m090Q73vMHSpKgw/input.css:1:1
+  |
+1 | \2a|div {}
+  | ^^^^^^^
+
+error: ComplexSelector
+ --> $DIR/tests/fixture/esbuild/misc/btdQp-3m090Q73vMHSpKgw/input.css:1:1
+  |
+1 | \2a|div {}
+  | ^^^^^^^
+
+error: CompoundSelector
+ --> $DIR/tests/fixture/esbuild/misc/btdQp-3m090Q73vMHSpKgw/input.css:1:1
+  |
+1 | \2a|div {}
+  | ^^^^^^^
+
+error: TypeSelector
+ --> $DIR/tests/fixture/esbuild/misc/btdQp-3m090Q73vMHSpKgw/input.css:1:1
+  |
+1 | \2a|div {}
+  | ^^^^^^^
+
+error: Ident
+ --> $DIR/tests/fixture/esbuild/misc/btdQp-3m090Q73vMHSpKgw/input.css:1:1
+  |
+1 | \2a|div {}
+  | ^^^
+
+error: Ident
+ --> $DIR/tests/fixture/esbuild/misc/btdQp-3m090Q73vMHSpKgw/input.css:1:5
+  |
+1 | \2a|div {}
+  |     ^^^
+
+error: Block
+ --> $DIR/tests/fixture/esbuild/misc/btdQp-3m090Q73vMHSpKgw/input.css:1:9
+  |
+1 | \2a|div {}
+  |         ^^
+

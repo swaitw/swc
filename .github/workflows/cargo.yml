@@ -16,6 +16,7 @@ env:
   CI: 1
   CARGO_INCREMENTAL: 0
   RUST_LOG: "debug"
+  SWC_CACHE_TEST: 1
 
 jobs:
   check-license:
@@ -68,6 +69,13 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
+      - name: Checkout submodules
+        shell: bash
+        run: |
+          auth_header="$(git config --local --get http.https://github.com/.extraheader)"
+          git submodule sync --recursive
+          git -c "http.extraheader=$auth_header" -c protocol.version=2 submodule update --init --force --recursive --depth=1
+
       # We explicitly do this to cache properly.
       - name: Install Rust
         uses: actions-rs/toolchain@v1
@@ -81,7 +89,10 @@ jobs:
             ~/.cargo/
             target
             Cargo.lock
-          key: ${{ runner.os }}-cargo-v4
+          key: cargo-dev--${{ runner.os }}-${{ hashFiles('**/Cargo.lock') }}
+          restore-keys: |
+            cargo-dev--${{ runner.os }}
+
       # Ensure that all components are compilable.
       - name: Run cargo check for all targets
         run: cargo check --color always --all --all-targets
@@ -112,6 +123,7 @@ jobs:
           - swc_css
           - swc_css_ast
           - swc_css_codegen
+          - swc_css_codegen_macros
           - swc_css_parser
           - swc_css_utils
           - swc_css_visit
@@ -143,6 +155,7 @@ jobs:
           - swc_node_base
           - swc_node_bundler
           - swc_plugin
+          - swc_plugin_api
           - swc_plugin_runner
           - swc_plugin_testing
           - swc_stylis
@@ -181,6 +194,7 @@ jobs:
           node-version: 16
 
       - uses: denoland/setup-deno@v1
+        if: matrix.crate == 'swc_bundler'
         with:
           deno-version: v1.x
 
@@ -197,7 +211,7 @@ jobs:
           # This does not have any effect on windows.
           npm config set prefix $HOME/npm
           yarn
-          (cd ecmascript/transforms && yarn)
+          (cd crates/swc_ecma_transforms && yarn)
           npm i -g jest
           echo $HOME
           echo $HOME/npm/bin >> $GITHUB_PATH
@@ -220,17 +234,31 @@ jobs:
             ~/.cargo/
             target
             Cargo.lock
-          key: ${{ runner.os }}-cargo-v4
+          key: cargo-dev--${{ runner.os }}-${{ matrix.crate }}-${{ hashFiles('**/Cargo.lock') }}
+          restore-keys: |
+            cargo-dev--${{ runner.os }}-${{ matrix.crate }}
 
       - name: Run cargo test
         run: |
           jest -v
           cargo test --color always -p ${{ matrix.crate }}
 
+      - name: Run cargo test (swc_ecma_transforms)
+        if: matrix.crate == 'swc_ecma_transforms'
+        run: |
+          cargo test --color always -p swc_ecma_transforms --all-features
+
       - name: Run cargo test (concurrent)
+        if: runner.os != 'Windows'
         shell: bash
         run: |
           ./scripts/ci/test-concurrent.sh ${{ matrix.crate }}
+
+      - name: Run cargo test (swc, concurrent)
+        shell: bash
+        if: matrix.crate == 'swc'
+        run: |
+          cargo test --color always -p swc --features concurrent
 
   deploy-docs:
     name: Docs

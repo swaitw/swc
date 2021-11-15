@@ -1,0 +1,219 @@
+{
+  "type": "Stylesheet",
+  "span": {
+    "start": 0,
+    "end": 106,
+    "ctxt": 0
+  },
+  "rules": [
+    {
+      "type": "StyleRule",
+      "span": {
+        "start": 0,
+        "end": 105,
+        "ctxt": 0
+      },
+      "selectors": {
+        "type": "SelectorList",
+        "span": {
+          "start": 0,
+          "end": 6,
+          "ctxt": 0
+        },
+        "children": [
+          {
+            "type": "ComplexSelector",
+            "span": {
+              "start": 0,
+              "end": 6,
+              "ctxt": 0
+            },
+            "children": [
+              {
+                "type": "CompoundSelector",
+                "span": {
+                  "start": 0,
+                  "end": 6,
+                  "ctxt": 0
+                },
+                "nestingSelector": null,
+                "typeSelector": null,
+                "subclassSelectors": [
+                  {
+                    "type": "ClassSelector",
+                    "span": {
+                      "start": 0,
+                      "end": 6,
+                      "ctxt": 0
+                    },
+                    "text": {
+                      "type": "Identifier",
+                      "span": {
+                        "start": 1,
+                        "end": 6,
+                        "ctxt": 0
+                      },
+                      "value": "style",
+                      "raw": "style"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "block": {
+        "type": "Block",
+        "span": {
+          "start": 7,
+          "end": 105,
+          "ctxt": 0
+        },
+        "items": [
+          {
+            "type": "Declaration",
+            "span": {
+              "start": 10,
+              "end": 102,
+              "ctxt": 0
+            },
+            "property": {
+              "type": "Identifier",
+              "span": {
+                "start": 10,
+                "end": 31,
+                "ctxt": 0
+              },
+              "value": "grid-template-columns",
+              "raw": "grid-template-columns"
+            },
+            "value": [
+              {
+                "type": "FnValue",
+                "span": {
+                  "start": 33,
+                  "end": 102,
+                  "ctxt": 0
+                },
+                "name": {
+                  "type": "Identifier",
+                  "span": {
+                    "start": 33,
+                    "end": 39,
+                    "ctxt": 0
+                  },
+                  "value": "repeat",
+                  "raw": "repeat"
+                },
+                "args": [
+                  {
+                    "type": "Number",
+                    "span": {
+                      "start": 40,
+                      "end": 41,
+                      "ctxt": 0
+                    },
+                    "value": 4.0,
+                    "raw": "4"
+                  },
+                  {
+                    "type": "SpaceValues",
+                    "span": {
+                      "start": 43,
+                      "end": 101,
+                      "ctxt": 0
+                    },
+                    "values": [
+                      {
+                        "type": "SquareBracketBlock",
+                        "span": {
+                          "start": 43,
+                          "end": 54,
+                          "ctxt": 0
+                        },
+                        "children": [
+                          {
+                            "type": "Identifier",
+                            "span": {
+                              "start": 44,
+                              "end": 53,
+                              "ctxt": 0
+                            },
+                            "value": "col-start",
+                            "raw": "col-start"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "Identifier",
+                        "span": {
+                          "start": 55,
+                          "end": 66,
+                          "ctxt": 0
+                        },
+                        "value": "min-content",
+                        "raw": "min-content"
+                      },
+                      {
+                        "type": "SquareBracketBlock",
+                        "span": {
+                          "start": 67,
+                          "end": 79,
+                          "ctxt": 0
+                        },
+                        "children": [
+                          {
+                            "type": "Identifier",
+                            "span": {
+                              "start": 68,
+                              "end": 78,
+                              "ctxt": 0
+                            },
+                            "value": "col-middle",
+                            "raw": "col-middle"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "Identifier",
+                        "span": {
+                          "start": 80,
+                          "end": 91,
+                          "ctxt": 0
+                        },
+                        "value": "max-content",
+                        "raw": "max-content"
+                      },
+                      {
+                        "type": "SquareBracketBlock",
+                        "span": {
+                          "start": 92,
+                          "end": 101,
+                          "ctxt": 0
+                        },
+                        "children": [
+                          {
+                            "type": "Identifier",
+                            "span": {
+                              "start": 93,
+                              "end": 100,
+                              "ctxt": 0
+                            },
+                            "value": "col-end",
+                            "raw": "col-end"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "important": null
+          }
+        ]
+      }
+    }
+  ]
+}

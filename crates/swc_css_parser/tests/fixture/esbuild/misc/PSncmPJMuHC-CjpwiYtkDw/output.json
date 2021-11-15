@@ -1,0 +1,118 @@
+{
+  "type": "Stylesheet",
+  "span": {
+    "start": 0,
+    "end": 33,
+    "ctxt": 0
+  },
+  "rules": [
+    {
+      "type": "StyleRule",
+      "span": {
+        "start": 0,
+        "end": 33,
+        "ctxt": 0
+      },
+      "selectors": {
+        "type": "SelectorList",
+        "span": {
+          "start": 0,
+          "end": 1,
+          "ctxt": 0
+        },
+        "children": [
+          {
+            "type": "ComplexSelector",
+            "span": {
+              "start": 0,
+              "end": 1,
+              "ctxt": 0
+            },
+            "children": [
+              {
+                "type": "CompoundSelector",
+                "span": {
+                  "start": 0,
+                  "end": 1,
+                  "ctxt": 0
+                },
+                "nestingSelector": null,
+                "typeSelector": {
+                  "type": "TypeSelector",
+                  "span": {
+                    "start": 0,
+                    "end": 1,
+                    "ctxt": 0
+                  },
+                  "prefix": null,
+                  "name": {
+                    "type": "Identifier",
+                    "span": {
+                      "start": 0,
+                      "end": 1,
+                      "ctxt": 0
+                    },
+                    "value": "a",
+                    "raw": "a"
+                  }
+                },
+                "subclassSelectors": []
+              }
+            ]
+          }
+        ]
+      },
+      "block": {
+        "type": "Block",
+        "span": {
+          "start": 2,
+          "end": 33,
+          "ctxt": 0
+        },
+        "items": [
+          {
+            "type": "Declaration",
+            "span": {
+              "start": 4,
+              "end": 31,
+              "ctxt": 0
+            },
+            "property": {
+              "type": "Identifier",
+              "span": {
+                "start": 4,
+                "end": 26,
+                "ctxt": 0
+              },
+              "value": "border-top-left-radius",
+              "raw": "border-top-left-radius"
+            },
+            "value": [
+              {
+                "type": "Number",
+                "span": {
+                  "start": 28,
+                  "end": 29,
+                  "ctxt": 0
+                },
+                "value": 0.0,
+                "raw": "0"
+              },
+              {
+                "type": "Number",
+                "span": {
+                  "start": 30,
+                  "end": 31,
+                  "ctxt": 0
+                },
+                "value": 0.0,
+                "raw": "0"
+              }
+            ],
+            "important": null
+          }
+        ]
+      }
+    }
+  ]
+}

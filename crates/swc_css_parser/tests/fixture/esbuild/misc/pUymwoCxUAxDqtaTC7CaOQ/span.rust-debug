@@ -1,0 +1,60 @@
+error: Stylesheet
+ --> $DIR/tests/fixture/esbuild/misc/pUymwoCxUAxDqtaTC7CaOQ/input.css:1:1
+  |
+1 | *|div {}
+  | ^^^^^^^^
+
+error: Rule
+ --> $DIR/tests/fixture/esbuild/misc/pUymwoCxUAxDqtaTC7CaOQ/input.css:1:1
+  |
+1 | *|div {}
+  | ^^^^^^^^
+
+error: StyleRule
+ --> $DIR/tests/fixture/esbuild/misc/pUymwoCxUAxDqtaTC7CaOQ/input.css:1:1
+  |
+1 | *|div {}
+  | ^^^^^^^^
+
+error: SelectorList
+ --> $DIR/tests/fixture/esbuild/misc/pUymwoCxUAxDqtaTC7CaOQ/input.css:1:1
+  |
+1 | *|div {}
+  | ^^^^^
+
+error: ComplexSelector
+ --> $DIR/tests/fixture/esbuild/misc/pUymwoCxUAxDqtaTC7CaOQ/input.css:1:1
+  |
+1 | *|div {}
+  | ^^^^^
+
+error: CompoundSelector
+ --> $DIR/tests/fixture/esbuild/misc/pUymwoCxUAxDqtaTC7CaOQ/input.css:1:1
+  |
+1 | *|div {}
+  | ^^^^^
+
+error: TypeSelector
+ --> $DIR/tests/fixture/esbuild/misc/pUymwoCxUAxDqtaTC7CaOQ/input.css:1:1
+  |
+1 | *|div {}
+  | ^^^^^
+
+error: Ident
+ --> $DIR/tests/fixture/esbuild/misc/pUymwoCxUAxDqtaTC7CaOQ/input.css:1:1
+  |
+1 | *|div {}
+  | ^
+
+error: Ident
+ --> $DIR/tests/fixture/esbuild/misc/pUymwoCxUAxDqtaTC7CaOQ/input.css:1:3
+  |
+1 | *|div {}
+  |   ^^^
+
+error: Block
+ --> $DIR/tests/fixture/esbuild/misc/pUymwoCxUAxDqtaTC7CaOQ/input.css:1:7
+  |
+1 | *|div {}
+  |       ^^
+

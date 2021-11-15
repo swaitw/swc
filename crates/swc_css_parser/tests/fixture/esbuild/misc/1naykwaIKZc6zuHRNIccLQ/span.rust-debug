@@ -1,0 +1,78 @@
+error: Stylesheet
+ --> $DIR/tests/fixture/esbuild/misc/1naykwaIKZc6zuHRNIccLQ/input.css:1:1
+  |
+1 | a { value: id\65nt }
+  | ^^^^^^^^^^^^^^^^^^^^
+
+error: Rule
+ --> $DIR/tests/fixture/esbuild/misc/1naykwaIKZc6zuHRNIccLQ/input.css:1:1
+  |
+1 | a { value: id\65nt }
+  | ^^^^^^^^^^^^^^^^^^^^
+
+error: StyleRule
+ --> $DIR/tests/fixture/esbuild/misc/1naykwaIKZc6zuHRNIccLQ/input.css:1:1
+  |
+1 | a { value: id\65nt }
+  | ^^^^^^^^^^^^^^^^^^^^
+
+error: SelectorList
+ --> $DIR/tests/fixture/esbuild/misc/1naykwaIKZc6zuHRNIccLQ/input.css:1:1
+  |
+1 | a { value: id\65nt }
+  | ^
+
+error: ComplexSelector
+ --> $DIR/tests/fixture/esbuild/misc/1naykwaIKZc6zuHRNIccLQ/input.css:1:1
+  |
+1 | a { value: id\65nt }
+  | ^
+
+error: CompoundSelector
+ --> $DIR/tests/fixture/esbuild/misc/1naykwaIKZc6zuHRNIccLQ/input.css:1:1
+  |
+1 | a { value: id\65nt }
+  | ^
+
+error: TypeSelector
+ --> $DIR/tests/fixture/esbuild/misc/1naykwaIKZc6zuHRNIccLQ/input.css:1:1
+  |
+1 | a { value: id\65nt }
+  | ^
+
+error: Ident
+ --> $DIR/tests/fixture/esbuild/misc/1naykwaIKZc6zuHRNIccLQ/input.css:1:1
+  |
+1 | a { value: id\65nt }
+  | ^
+
+error: Block
+ --> $DIR/tests/fixture/esbuild/misc/1naykwaIKZc6zuHRNIccLQ/input.css:1:3
+  |
+1 | a { value: id\65nt }
+  |   ^^^^^^^^^^^^^^^^^^
+
+error: Declaration
+ --> $DIR/tests/fixture/esbuild/misc/1naykwaIKZc6zuHRNIccLQ/input.css:1:5
+  |
+1 | a { value: id\65nt }
+  |     ^^^^^^^^^^^^^^
+
+error: Ident
+ --> $DIR/tests/fixture/esbuild/misc/1naykwaIKZc6zuHRNIccLQ/input.css:1:5
+  |
+1 | a { value: id\65nt }
+  |     ^^^^^
+
+error: Value
+ --> $DIR/tests/fixture/esbuild/misc/1naykwaIKZc6zuHRNIccLQ/input.css:1:12
+  |
+1 | a { value: id\65nt }
+  |            ^^^^^^^
+
+error: Ident
+ --> $DIR/tests/fixture/esbuild/misc/1naykwaIKZc6zuHRNIccLQ/input.css:1:12
+  |
+1 | a { value: id\65nt }
+  |            ^^^^^^^
+

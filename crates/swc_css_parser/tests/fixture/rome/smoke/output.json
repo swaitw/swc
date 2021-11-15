@@ -1,0 +1,203 @@
+{
+  "type": "Stylesheet",
+  "span": {
+    "start": 22,
+    "end": 80,
+    "ctxt": 0
+  },
+  "rules": [
+    {
+      "type": "StyleRule",
+      "span": {
+        "start": 22,
+        "end": 78,
+        "ctxt": 0
+      },
+      "selectors": {
+        "type": "SelectorList",
+        "span": {
+          "start": 22,
+          "end": 26,
+          "ctxt": 0
+        },
+        "children": [
+          {
+            "type": "ComplexSelector",
+            "span": {
+              "start": 22,
+              "end": 26,
+              "ctxt": 0
+            },
+            "children": [
+              {
+                "type": "CompoundSelector",
+                "span": {
+                  "start": 22,
+                  "end": 26,
+                  "ctxt": 0
+                },
+                "nestingSelector": null,
+                "typeSelector": {
+                  "type": "TypeSelector",
+                  "span": {
+                    "start": 22,
+                    "end": 26,
+                    "ctxt": 0
+                  },
+                  "prefix": null,
+                  "name": {
+                    "type": "Identifier",
+                    "span": {
+                      "start": 22,
+                      "end": 26,
+                      "ctxt": 0
+                    },
+                    "value": "body",
+                    "raw": "body"
+                  }
+                },
+                "subclassSelectors": []
+              }
+            ]
+          }
+        ]
+      },
+      "block": {
+        "type": "Block",
+        "span": {
+          "start": 27,
+          "end": 78,
+          "ctxt": 0
+        },
+        "items": [
+          {
+            "type": "Declaration",
+            "span": {
+              "start": 33,
+              "end": 48,
+              "ctxt": 0
+            },
+            "property": {
+              "type": "Identifier",
+              "span": {
+                "start": 33,
+                "end": 43,
+                "ctxt": 0
+              },
+              "value": "background",
+              "raw": "background"
+            },
+            "value": [
+              {
+                "type": "Identifier",
+                "span": {
+                  "start": 45,
+                  "end": 48,
+                  "ctxt": 0
+                },
+                "value": "red",
+                "raw": "red"
+              }
+            ],
+            "important": null
+          },
+          {
+            "type": "Declaration",
+            "span": {
+              "start": 54,
+              "end": 75,
+              "ctxt": 0
+            },
+            "property": {
+              "type": "Identifier",
+              "span": {
+                "start": 54,
+                "end": 59,
+                "ctxt": 0
+              },
+              "value": "width",
+              "raw": "width"
+            },
+            "value": [
+              {
+                "type": "FnValue",
+                "span": {
+                  "start": 61,
+                  "end": 75,
+                  "ctxt": 0
+                },
+                "name": {
+                  "type": "Identifier",
+                  "span": {
+                    "start": 61,
+                    "end": 65,
+                    "ctxt": 0
+                  },
+                  "value": "calc",
+                  "raw": "calc"
+                },
+                "args": [
+                  {
+                    "type": "BinValue",
+                    "span": {
+                      "start": 66,
+                      "end": 74,
+                      "ctxt": 0
+                    },
+                    "op": "+",
+                    "left": {
+                      "type": "UnitValue",
+                      "span": {
+                        "start": 66,
+                        "end": 69,
+                        "ctxt": 0
+                      },
+                      "value": {
+                        "type": "Number",
+                        "span": {
+                          "start": 66,
+                          "end": 67,
+                          "ctxt": 0
+                        },
+                        "value": 1.0,
+                        "raw": "1"
+                      },
+                      "unit": {
+                        "span": {
+                          "start": 67,
+                          "end": 69,
+                          "ctxt": 0
+                        },
+                        "value": "px",
+                        "raw": "px"
+                      }
+                    },
+                    "right": {
+                      "type": "PercentValue",
+                      "span": {
+                        "start": 72,
+                        "end": 74,
+                        "ctxt": 0
+                      },
+                      "value": {
+                        "type": "Number",
+                        "span": {
+                          "start": 72,
+                          "end": 73,
+                          "ctxt": 0
+                        },
+                        "value": 2.0,
+                        "raw": "2"
+                      }
+                    }
+                  }
+                ]
+              }
+            ],
+            "important": null
+          }
+        ]
+      }
+    }
+  ]
+}
